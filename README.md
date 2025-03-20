@@ -44,8 +44,11 @@
 
 ### harmony常用命令
 flutter build hap --release
+
 flutter build app --release
+
 flutter devices
+
 flutter run --debug -d <deviceId>
 
 ### retrofit适用命令
