@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/Soushin/.ohos/config/default_ohos_LiWVWP8RpnDFFyfoZBQwOMPexc2fif_ITp2jxrCLnrw=.cer",
+          "storePassword": "0000001B3EF5F8A4621DB986155B4078239BFC9CF9AD5AB93ECFF761647EB52AC0608B6E1110FFBA3F21F5",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BA406C50E0FB8A0319048D300E45526566D3BC91AADEDD80324E572081B850AC3B773C6C8893113",
+          "profile": "/Users/Soushin/.ohos/config/default_ohos_LiWVWP8RpnDFFyfoZBQwOMPexc2fif_ITp2jxrCLnrw=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/Soushin/.ohos/config/default_ohos_LiWVWP8RpnDFFyfoZBQwOMPexc2fif_ITp2jxrCLnrw=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
