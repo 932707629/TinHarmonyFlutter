@@ -4,7 +4,10 @@
 
 基于Flutter-harmony3.7.12、Dart2.19.6版本开发，使用的三方库都适配了空安全。
 目前可运行于Android iOS 鸿蒙三种平台
+
+
 [Flutter鸿蒙分支](https://gitcode.com/openharmony-sig/flutter_flutter/tree/master)
+
 
 ### 需要安装的Plugin: 
 - 基本配置插件: Dart、Kotlin、Flutter
@@ -40,14 +43,10 @@
 - 由于鸿蒙兼容问题,Scaffold中不支持使用floatingActionButton,会闪退!
 
 ### harmony常用命令
-
-# flutter build hap --release
-
-# flutter build app --release
-
-# flutter devices
-
-# flutter run --debug -d <deviceId>
+flutter build hap --release
+flutter build app --release
+flutter devices
+flutter run --debug -d <deviceId>
 
 ### retrofit适用命令
 
